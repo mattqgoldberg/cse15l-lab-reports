@@ -2,7 +2,7 @@
 
 ## Step 1: Install Setup
 
-1. Install Git. 
-Second, you must install VS Code.
-Then, set up a git terminal in VS Code
+* 1. Install Git. 
+* Second, you must install VS Code.
+* Then, set up a git terminal in VS Code
 

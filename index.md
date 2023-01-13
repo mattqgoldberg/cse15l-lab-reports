@@ -5,7 +5,7 @@
 In order to log-in to the server for this lab, you must
 set up your course account using the link below.
 
-https://sdacs.ucsd.edu/~icc/index.php
+(https://sdacs.ucsd.edu/~icc/index.php)
 
 Go to the link and input our UCSD username and PID.
 Take note of your course specific account name for 15L.

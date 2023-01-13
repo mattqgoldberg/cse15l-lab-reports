@@ -14,10 +14,10 @@ Take note of your course specific account name for 15L.
 Then, click on your acccount name and click to link on that page
 that says to change your password.
 
-**Read Carefully:
+**Read Carefully:**
 
 Enter your current and new password, but do not click check password!
-Just hit enter on your keyboard and your password will reset.**
+Just hit enter on your keyboard and your password will reset.
 
 Wait 15 minutes before continuing for the password change to take effect.
 

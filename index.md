@@ -58,12 +58,16 @@ Type 'yes' and press enter.
 
 Now you are connected to the server and can run commands!
 
+![Image](https://github.com/mattqgoldberg/cse15l-lab-reports/blob/main/CONNECT.png?raw=true)
+
 ## Step 5: Running Commands
 
 There are lots of commands that you could run now that
 you have connected but such as cd, ls, pwd, mkdir.
 
 Here are some screenshots of commands that I ran!
+
+![Image](https://github.com/mattqgoldberg/cse15l-lab-reports/blob/main/COMMANDS.png?raw=true)
 
 Thanks for looking at my tutorial!
 

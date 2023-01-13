@@ -58,7 +58,7 @@ Type 'yes' and press enter.
 
 Now you are connected to the server and can run commands!
 
-![Image](https://github.com/mattqgoldberg/cse15l-lab-reports/blob/main/CONNECT.png?raw=true)
+![Image](https://github.com/mattqgoldberg/cse15l-lab-reports/blob/main/LOGIN.png?raw=true)
 
 ## Step 5: Running Commands
 

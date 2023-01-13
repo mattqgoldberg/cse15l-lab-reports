@@ -27,7 +27,7 @@ Wait 15 minutes before continuing for the password change to take effect.
 If you do not have it installed go to the link below to install VS Code.
 
 https://code.visualstudio.com/
-
+![Image](https://github.com/mattqgoldberg/cse15l-lab-reports/INSTALL_VSCODE.png)
 I already used it for CSE 11 so I did not need to do this step.
 
 ## Step 3: Install Git and Set Up with VS Code

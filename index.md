@@ -43,6 +43,7 @@ be a Git Bash terminal.
 
 Type the following into the terminal.
 > $ ssh cs15lwi23zz@ieng6.ucsd.edu
+
 Replace zz with the letters from the username you wrote down earlier.
 
 Type in the new password you created. It is normal for the password to not

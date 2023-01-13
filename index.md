@@ -5,7 +5,7 @@
 In order to log-in to the server for this lab, you must
 set up your course account using the link below.
 
-(https://sdacs.ucsd.edu/~icc/index.php)
+[https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
 
 Go to the link and input our UCSD username and PID.
 Take note of your course specific account name for 15L.
@@ -26,14 +26,14 @@ Wait 15 minutes before continuing for the password change to take effect.
 
 If you do not have it installed go to the link below to install VS Code.
 
-https://code.visualstudio.com/
+[https://code.visualstudio.com/](https://code.visualstudio.com/)
 ![Image](https://github.com/mattqgoldberg/cse15l-lab-reports/blob/main/INSTALL_VSCODE.png?raw=true)
 I already used it for CSE 11 so I did not need to do this step.
 
 ## Step 3: Install Git and Set Up with VS Code
 
 Go to the link below and install git.
-https://gitforwindows.org/
+[https://gitforwindows.org/](https://gitforwindows.org/)
 
 Then, to use git in VS Code, Press Ctrl + Shift + P to open the command palette.
 Type Select Default Profile.

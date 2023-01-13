@@ -10,6 +10,7 @@ set up your course account using the link below.
 Go to the link and input our UCSD username and PID.
 Take note of your course specific account name for 15L.
 (Should start with cs15lfa22)
+Mine is cs15lfa22ann.
 
 Then, click on your acccount name and click to link on that page
 that says to change your password.
@@ -58,5 +59,10 @@ Now you are connected to the server and can run commands!
 
 ## Step 5: Running Commands
 
+There are lots of commands that you could run now that
+you have connected but such as cd, ls, pwd, mkdir.
 
+Here are some screenshots of commands that I ran!
+
+Thanks for looking at my tutorial!
 

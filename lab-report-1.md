@@ -27,7 +27,7 @@ Wait 15 minutes before continuing for the password change to take effect.
 If you do not have it installed go to the link below to install VS Code.
 
 [https://code.visualstudio.com/](https://code.visualstudio.com/)
-![Image](https://github.com/mattqgoldberg/cse15l-lab-reports/blob/main/INSTALL_VSCODE.png?raw=true)
+![Image](https://github.com/mattqgoldberg/cse15l-lab-reports/blob/main/img/INSTALL_VSCODE.png?raw=true)
 I already used it for CSE 11 so I did not need to do this step.
 
 ## Step 3: Install Git and Set Up with VS Code
@@ -58,7 +58,7 @@ Type 'yes' and press enter.
 
 Now you are connected to the server and can run commands!
 
-![Image](https://github.com/mattqgoldberg/cse15l-lab-reports/blob/main/LOGIN.png?raw=true)
+![Image](https://github.com/mattqgoldberg/cse15l-lab-reports/blob/main//img/LOGIN.png?raw=true)
 
 ## Step 5: Running Commands
 
@@ -67,7 +67,7 @@ you have connected but such as cd, ls, pwd, mkdir.
 
 Here are some screenshots of commands that I ran!
 
-![Image](https://github.com/mattqgoldberg/cse15l-lab-reports/blob/main/COMMANDS.png?raw=true)
+![Image](https://github.com/mattqgoldberg/cse15l-lab-reports/blob/main/img/COMMANDS.png?raw=true)
 
 Thanks for looking at my tutorial!
 

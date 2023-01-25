@@ -30,11 +30,17 @@ If you do not have it installed go to the link below to install VS Code.
 ![Image](https://github.com/mattqgoldberg/cse15l-lab-reports/blob/main/img/INSTALL_VSCODE.png?raw=true)
 I already used it for CSE 11 so I did not need to do this step.
 
+Click the Blue download button that will download the latest version of VS Code for your machine.
+
+When it finishes downloading, run the installer called VSCodeUserSetup.exe.
+Accept the terms and conditions and click next until VS Code installs on your machine.
+
 ## Step 3: Install Git and Set Up with VS Code
 
 Go to the link below and install git.
 [https://gitforwindows.org/](https://gitforwindows.org/)
 
+Open VS Code.
 Then, to use git in VS Code, Press Ctrl + Shift + P to open the command palette.
 Type Select Default Profile.
 Select Git Bash from the options.

@@ -9,8 +9,8 @@ set up your course account using the link below.
 
 Go to the link and input our UCSD username and PID.
 Take note of your course specific account name for 15L.
-(Should start with cs15lfa22)
-Mine is cs15lfa22ann.
+(Should start with cs15lwi23)
+Mine is cs15lwi23ann.
 
 Then, click on your acccount name and click to link on that page
 that says to change your password.

@@ -70,5 +70,23 @@ Here are some screenshots of commands that I ran!
 
 ![Image](https://github.com/mattqgoldberg/cse15l-lab-reports/blob/main/img/COMMANDS.png?raw=true)
 
+The first command the I ran was `pwd` which stands for print working directory. This will
+print to the console the path of the working directory.
+
+The second command `ls` prints a list to the console of all the files contained in the working directory.
+
+The command `cd ..` will change the working directory to the parent directory.
+
+Running `pwd` again shows the new working directory has changed.
+
+Typing `cd public` will change the directory to /home/linux/ieng6/cs15lwi23/public.
+
+Running `pwd` again confirms this.
+
+Running `ls` shows the list of files in this directory including hello.txt.
+
+In order to read out hello.txt, we can run `cat hello.txt`, which will print out the
+contents of hello.txt to the console.
+
 Thanks for looking at my tutorial!
 

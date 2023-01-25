@@ -43,7 +43,8 @@ be a Git Bash terminal.
 
 ## Step 4: Remotely Connect
 
-Type the following into the terminal.
+Type the following into the terminal:
+
 `$ ssh cs15lwi23zz@ieng6.ucsd.edu`
 
 Replace zz with the letters from the username you wrote down earlier.

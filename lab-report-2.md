@@ -22,7 +22,28 @@ because the url contains "?string=hello" instead of "?s=hello" so "hello" is not
 
 # Part 2
 
-
+## Function to be tested:
+`static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }`
+  
+## Test passes:
+`  @Test
+  public void testReversedEmpty() {
+    int[] input = {};
+    assertArrayEquals(new int[]{}, ArrayExamples.reversed(input));
+  }`
+  
+## Test fails:
+`  @Test 
+  public void testReversedList() {
+    int[] input = {1, 4, 7, 1};
+    assertArrayEquals(new int[]{1, 7, 4, 1}, ArrayExamples.reversed(input));
+  }`
 
 
 # Part 3

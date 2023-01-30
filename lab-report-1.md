@@ -9,8 +9,8 @@ set up your course account using the link below.
 
 Go to the link and input our UCSD username and PID.
 Take note of your course specific account name for 15L.
-(Should start with cs15lfa22)
-Mine is cs15lfa22ann.
+(Should start with cs15lwi23)
+Mine is cs15lwi23ann.
 
 Then, click on your acccount name and click to link on that page
 that says to change your password.
@@ -30,11 +30,17 @@ If you do not have it installed go to the link below to install VS Code.
 ![Image](https://github.com/mattqgoldberg/cse15l-lab-reports/blob/main/img/INSTALL_VSCODE.png?raw=true)
 I already used it for CSE 11 so I did not need to do this step.
 
+Click the Blue download button that will download the latest version of VS Code for your machine.
+
+When it finishes downloading, run the installer called VSCodeUserSetup.exe.
+Accept the terms and conditions and click next until VS Code installs on your machine.
+
 ## Step 3: Install Git and Set Up with VS Code
 
 Go to the link below and install git.
 [https://gitforwindows.org/](https://gitforwindows.org/)
 
+Open VS Code.
 Then, to use git in VS Code, Press Ctrl + Shift + P to open the command palette.
 Type Select Default Profile.
 Select Git Bash from the options.
@@ -43,8 +49,9 @@ be a Git Bash terminal.
 
 ## Step 4: Remotely Connect
 
-Type the following into the terminal.
-> $ ssh cs15lwi23zz@ieng6.ucsd.edu
+Type the following into the terminal:
+
+`$ ssh cs15lwi23zz@ieng6.ucsd.edu`
 
 Replace zz with the letters from the username you wrote down earlier.
 
@@ -68,6 +75,24 @@ you have connected but such as cd, ls, pwd, mkdir.
 Here are some screenshots of commands that I ran!
 
 ![Image](https://github.com/mattqgoldberg/cse15l-lab-reports/blob/main/img/COMMANDS.png?raw=true)
+
+The first command the I ran was `pwd` which stands for print working directory. This will
+print to the console the path of the working directory.
+
+The second command `ls` prints a list to the console of all the files contained in the working directory.
+
+The command `cd ..` will change the working directory to the parent directory.
+
+Running `pwd` again shows the new working directory has changed.
+
+Typing `cd public` will change the directory to /home/linux/ieng6/cs15lwi23/public.
+
+Running `pwd` again confirms this.
+
+Running `ls` shows the list of files in this directory including hello.txt.
+
+In order to read out hello.txt, we can run `cat hello.txt`, which will print out the
+contents of hello.txt to the console.
 
 Thanks for looking at my tutorial!
 

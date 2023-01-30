@@ -31,7 +31,7 @@ static int[] reversed(int[] arr) {
     }
     return arr;
   }
-  ```
+```
   
 ## Test passes:
 ```
@@ -40,7 +40,7 @@ static int[] reversed(int[] arr) {
     int[] input = {};
     assertArrayEquals(new int[]{}, ArrayExamples.reversed(input));
   }
- ```
+```
   
 ## Test fails:
 ```
@@ -49,7 +49,38 @@ static int[] reversed(int[] arr) {
     int[] input = {1, 4, 7, 1};
     assertArrayEquals(new int[]{1, 7, 4, 1}, ArrayExamples.reversed(input));
   }
-  ```
+```
+  
+![Image](https://github.com/mattqgoldberg/cse15l-lab-reports/blob/main/img/Report%202/jUnit.png?raw=true)
+
+## Before:
+```
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+
+## After:
+```
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+```
+
+The original code was creating a new array and setting elements from the original array equal to original array arr, then returning arr.
+This does not work because newArray is empty when created so nothing will be added to the array. This explains why the testReversedEmpty() passed initially because
+the bug will return an empty array which in that test case is the correct output.
+
+To fix this, we just need to swap newArray and arr inside the for loop, so that the elements of the original array arr are added to newArray instead of the other way around.
+Then we change the return statement to return newArray and the function works as intended and passes the testReversedList() case.
 
 
 # Part 3

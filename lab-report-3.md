@@ -31,6 +31,7 @@ Example 2:
 ./written_2/travel_guides/berlitz2/Bahamas-WhatToDo.txt
 ./written_2/travel_guides/berlitz2/Bahamas-WhereToGo.txt
 `
+
 This command is similar to the one above, but it finds all files starting with Bahamas, with something in between represented by a *, then the word To, then anything after represented by *.
 
 ## -iname
@@ -46,6 +47,7 @@ Example 1:
 ./written_2/travel_guides/berlitz2/Bahamas-WhereToGo.txt
 [cs15lwi23ann@ieng6-202]:skill-demo1-data:220$
 `
+
 -iname is similar to -name but it is not case-sensitive. You will notice that the command is identical to the second example for -name except it uses -iname. Because this ignores case it outputs an additional file Bahamas-History.txt because the 'to' in history matches the pattern in the command argument if case is ignored.
 
 Example 2:
@@ -74,6 +76,7 @@ Example 2:
 ./written_2/travel_guides/berlitz1/HistoryMalaysia.txt
 ./written_2/travel_guides/berlitz1/HistoryMallorca.txt
 `
+
 This example finds all of the files in written_2 that begin with history. Notice that history is in all caps in the command, but it finds all of the files with history in any case because -iname is not case-sensitive.
 
 ## -size
@@ -115,6 +118,7 @@ Example 1:
 ./written_2/travel_guides/berlitz1/WhereToIstanbul.txt
 ./written_2/travel_guides/berlitz1/WhereToItaly.txt
 `
+
 The -path argument is very similar to the -name arugment, but it includes the entire path in the search for matching patterns. Here we find all files whose path contains /berlitz1/ and ToI, which finds 10 files in the folder berlitz1.
 
 Example 2:

@@ -141,7 +141,7 @@ Using the -s argument the output is different, with `less -r -N HistoryFrance.tx
  The -s argument compacts all of these extra new lines together and just shows one empty line between the two.
  It also acknolwedges these skipped lines in the line numbers on the side skipping from line 15 to line 23.
 
-
+## Additional command arugments:
 I wanted to include -D for my last command argument because it changes the colors of the less output but it only works on MS-DOS or at least I couldn't figure out how to get it work.
 
 I did find that there are a lot of keyboard shortcuts within less itself that are very useful.

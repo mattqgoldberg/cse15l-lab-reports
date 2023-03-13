@@ -10,7 +10,7 @@ The first thing I noticted when using less to read a file is that I was getting 
 For example:
 `less HistoryFrance.txt` gives the following output:
 
-`A BRIEF HISTORY
+        `A BRIEF HISTORY
         The French have always wanted to know what it means to be
         a<E2><80><82>French<C2><AD>man. Their history has been a constant quest for national
         identity: a conflict between strong regional loyalties and central
@@ -29,14 +29,14 @@ For example:
         From Gaul to France
         In 125<E2><80><82>b.c. , the Romans came in force, conquered the
         <E2><80><9C>Gallic barbarians,<E2><80><9D> and set up a fortress at Aquae Sextiae
-HistoryFrance.txt
-`
+        HistoryFrance.txt
+        `
 
 These weird characters like `<E2><80><82>` are not present in the actual file and an issue with less.
 Rerunning the command using the -r option or `less -r HistoryFrance.txt` fixes the output like this:
 
-`
-A BRIEF HISTORY
+        `
+        A BRIEF HISTORY
         The French have always wanted to know what it means to be
         a French­man. Their history has been a constant quest for national
         identity: a conflict between strong regional loyalties and central
@@ -55,14 +55,14 @@ A BRIEF HISTORY
         From Gaul to France
         In 125 b.c. , the Romans came in force, conquered the
         “Gallic barbarians,” and set up a fortress at Aquae Sextiae
-HistoryFrance.txt
-`
+        HistoryFrance.txt
+        `
 
 ## Command Argument 2: -N
 
 running `less -r -N HistoryFrance.txt` displays the following output:
 
-`     1
+     `1
       2
       3
       4
@@ -86,7 +86,7 @@ running `less -r -N HistoryFrance.txt` displays the following output:
      22         From Gaul to France
      23         In 125 b.c. , the Romans came in force, conquered the
      24         “Gallic barbarians,” and set up a fortress at Aquae Sextiae
-`
+     `
 
 This command adds line numbers to the output so you can see exactly where you are in the file.
 
@@ -95,7 +95,7 @@ This command adds line numbers to the output so you can see exactly where you ar
 I added a bunch of new lines to the HistoryFrance.txt files and running `less -r -N HistoryFrance.txt`
 gives this output:
 
-`A BRIEF HISTORY
+     `A BRIEF HISTORY
       7         The French have always wanted to know what it means to be
       8         a French­man. Their history has been a constant quest for national
       9         identity: a conflict between strong regional loyalties and central
@@ -117,11 +117,11 @@ gives this output:
      25         600 b.c. , followed by other ports at Hyères, Antibes, and Nice. But
      26         the Greeks developed few contacts with the interior beyond a little
      27         commerce in olives and wine with the Celts of Burgundy. When their
-`
+     `
 
 Using the -s argument the output is different, with `less -r -N HistoryFrance.txt` showing:
 
-`     6         A BRIEF HISTORY
+     `6         A BRIEF HISTORY
       7         The French have always wanted to know what it means to be
       8         a French­man. Their history has been a constant quest for national
       9         identity: a conflict between strong regional loyalties and central
@@ -136,7 +136,7 @@ Using the -s argument the output is different, with `less -r -N HistoryFrance.tx
      25         600 b.c. , followed by other ports at Hyères, Antibes, and Nice. But
      26         the Greeks developed few contacts with the interior beyond a little
      27         commerce in olives and wine with the Celts of Burgundy. When their
- `
+     `
  
  The -s argument compacts all of these extra new lines together and just shows one empty line between the two.
  It also acknolwedges these skipped lines in the line numbers on the side skipping from line 15 to line 23.

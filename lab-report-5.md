@@ -61,8 +61,8 @@ HistoryFrance.txt
 ## Command Argument 2: -N
 
 running `less -r -N HistoryFrance.txt` displays the following output:
-`
-  1
+
+     `1
       2
       3
       4
